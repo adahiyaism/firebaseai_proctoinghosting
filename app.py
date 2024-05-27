@@ -9,6 +9,7 @@ import wave
 import numpy as np
 
 app = Flask(__name__)
+application = app
 
 camera = cv2.VideoCapture(0)  # Use the default camera
 
