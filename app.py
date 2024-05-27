@@ -1,12 +1,14 @@
 import os
 from datetime import datetime
 import time  # Add this line to import the time module
+import pyscreeze
 import pyautogui as pyautogui
 from flask import Flask, render_template, Response
 import cv2
 import math
 import wave
 import numpy as np
+
 
 app = Flask(__name__)
 os.environ['DISPLAY'] = ':99'
