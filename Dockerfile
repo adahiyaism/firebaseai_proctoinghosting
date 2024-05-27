@@ -16,7 +16,12 @@ RUN apt-get update && \
         libsm6 \
         libxext6 \
         libxrender-dev \
-        xvfb
+        xvfb \
+        scrot \
+        python3-tk \
+        python3-dev && \
+    pip install pyautogui \
+                python3-xlib
 
 # Set the DISPLAY environment variable
 ENV DISPLAY=:99.0
