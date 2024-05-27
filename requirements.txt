@@ -1,8 +1,8 @@
-numpy==1.23.3
 absl-py==1.4.0
 aiohttp==3.8.4
 aiosignal==1.3.1
 altair==5.0.1
+altgraph @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/altgraph-0.17.2-py2.py3-none-any.whl
 appnope==0.1.4
 asttokens==2.4.1
 astunparse==1.6.3
@@ -40,6 +40,7 @@ flax==0.8.1
 fonttools==4.38.0
 frozenlist==1.3.3
 fsspec==2024.2.0
+future @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/future-0.18.2-py3-none-any.whl
 gast==0.5.4
 gitdb==4.0.10
 GitPython==3.1.31
@@ -70,12 +71,14 @@ Kivy==2.1.0
 Kivy-Garden==0.1.5
 kiwisolver==1.4.4
 libclang==16.0.6
+macholib @ file:///AppleInternal/Library/BuildRoots/860631e9-c1c5-11ee-98ee-b6ef2fd8d87b/Library/Caches/com.apple.xbs/Sources/python3/macholib-1.15.2-py2.py3-none-any.whl
 Markdown==3.5.2
 markdown-it-py==3.0.0
 MarkupSafe==2.1.3
 matplotlib==3.6.3
 matplotlib-inline==0.1.7
 mdurl==0.1.2
+mediapipe-silicon==0.8.11
 mistune==3.0.2
 ml-dtypes==0.2.0
 MouseInfo==0.1.3
@@ -87,6 +90,7 @@ nbconvert==7.16.4
 nbformat==5.10.4
 nest-asyncio==1.6.0
 networkx==3.1
+numpy==1.23.3
 oauthlib==3.2.2
 openai==0.27.8
 opencv-contrib-python==4.7.0.68
@@ -121,6 +125,9 @@ PyGetWindow==0.0.9
 Pygments==2.13.0
 Pympler==1.0.1
 PyMsgBox==1.0.9
+pyobjc-core==10.2
+pyobjc-framework-Cocoa==10.2
+pyobjc-framework-Quartz==10.2
 pyparsing==3.0.9
 pyperclip==1.8.2
 PyRect==0.2.0
@@ -139,6 +146,7 @@ requests-oauthlib==1.3.1
 rich==13.4.2
 rpds-py==0.8.10
 rsa==4.9
+rubicon-objc==0.4.9
 scikit-learn==1.1.3
 scipy==1.9.3
 seaborn==0.12.2
@@ -149,4 +157,40 @@ SpeechRecognition==3.10.4
 stack-data==0.6.3
 streamlit==1.24.1
 sympy==1.12
-
+tenacity==8.2.2
+tensorboard==2.15.2
+tensorboard-data-server==0.7.2
+tensorflow==2.15.0
+tensorflow-decision-forests==1.8.1
+tensorflow-estimator==2.15.0
+tensorflow-hub==0.16.1
+tensorflow-io-gcs-filesystem==0.36.0
+tensorflow-macos==2.15.0
+tensorflowjs==4.17.0
+tensorstore==0.1.45
+termcolor==2.4.0
+tf-keras==2.15.0
+threadpoolctl==3.1.0
+tinycss2==1.3.0
+toml==0.10.2
+toolz==0.12.0
+torch==2.0.1
+torchvision==0.15.2
+tornado==6.3.2
+tqdm==4.65.0
+traitlets==5.14.3
+typing_extensions==4.7.1
+tzdata==2023.3
+tzlocal==4.3.1
+ultralytics==8.0.157
+urllib3==1.26.12
+validators==0.20.0
+wcwidth==0.2.13
+webencodings==0.5.1
+Werkzeug==3.0.1
+wfastcgi==3.0.0
+wrapt==1.14.1
+wurlitzer==3.0.3
+yarg==0.1.9
+yarl==1.9.2
+zipp==3.15.0
