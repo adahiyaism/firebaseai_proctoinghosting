@@ -19,12 +19,13 @@ RUN apt-get update && \
         xvfb \
         scrot \
         python3-tk \
-        python3-dev && \
-    pip install pyautogui \
-                python3-xlib
+        python3-dev
 
-# Set the DISPLAY environment variable
-ENV DISPLAY=:99.0
+# Set up a virtual display
+ENV DISPLAY=:99
 
-# Run flask app
+# Start Xvfb in the background
+CMD ["Xvfb", ":99", "-screen", "0", "1280x1024x16", "-ac"]
+
+# Run your application
 CMD ["python", "your_script.py"]
