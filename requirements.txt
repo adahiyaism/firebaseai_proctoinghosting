@@ -1,4 +1,4 @@
-numpy==
+numpy==1.23.3
 absl-py==1.4.0
 aiohttp==3.8.4
 aiosignal==1.3.1
