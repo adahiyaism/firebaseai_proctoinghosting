@@ -25,7 +25,7 @@ COPY app.py app.py
 
 ENV VIRTUAL_ENV=/app/venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
-ENV FLASK_APP=app/app.py
+ENV FLASK_APP=app.py
 ENV DISPLAY=:99
 
 EXPOSE 8080
